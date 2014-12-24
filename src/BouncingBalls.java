@@ -14,6 +14,7 @@ import javax.swing.SwingUtilities;
 
 public class BouncingBalls extends JPanel implements MouseListener {
 
+	//static Ball[] balls = new Ball[20];
     static List<Ball> balls = new ArrayList<Ball>(20);
     private Container container;
     private DrawCanvas canvas;
@@ -114,7 +115,7 @@ public class BouncingBalls extends JPanel implements MouseListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
-       
+      
     }
 
     @Override
